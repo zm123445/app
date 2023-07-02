@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>buildingsdesign</title>
+    <title>learningcenter</title>
     <div>
     <h1 style="text-align: center;font-size:270%;">Учебный центр</h1>
     </div>
@@ -10,18 +10,22 @@
     div{
         border: 3px  solid red;
         padding:60px;
-        background-color:azure;
+        background-color:cadetblue;
         margin : 100px;
         border-radius: 20px;
     }
     .registr{
-        border:3px solid rgb(5, 158, 105);
+        border:3px solid red;
         padding:50px;
         margin:90px;
         border-radius:20px;
     }
+    input::placeholder{
+        font-size:1.2em;
+        color:crimson;
+    }
 </style>
-<body background="https://png.pngtree.com/thumb_back/fw800/background/20210828/pngtree-learning-tools-information-school-supplies-lilac-background-image_771830.jpg" width="100">
+<body background="https://png.pngtree.com/thumb_back/fh260/background/20190220/ourmid/pngtree-cartoon-education-training-cram-school-image_9149.jpg">
 <div>
     <h2 style="text-align: center; font-size: 250%;">Виды курсов</h2>
 </div>
@@ -33,20 +37,25 @@
         <li>Русский</li>
     </ul>
     </div></h1>
-    <div class="register">
+    <div class="registr">
         <h1>Оставьте информацию, мы с вами свяжемся.</h1>
     </div>
     <form>
-        <div class="register">
+        <div class="registr">
         <lable for="Name">
             Name:
       <input type="text" placeholder="Name" id="Name"/>
-        </lable>
+        </lable><br><br>
+        <label for="text">
+            Number:
+            <input type="text" placeholder="Number" id="Number"/>
+        </label>
+        <address>
+            <h4>Адрес: Минор,57.</h4>
+         </address>
         </div>
     </form>
-    <address>
-       <h1>Адрес: Минор,57.</h1>
-    </address>
+    
 </body>
 
 
